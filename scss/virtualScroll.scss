@@ -1,0 +1,19 @@
+// background-image setting
+
+.virtualScroll body {
+    margin: 0;
+    padding: 0;
+    /* use this to avoid elastic overscroll on desktop (see below for mobile */
+    overflow: hidden;
+}
+
+.virtualScroll .vs-container {
+    /* the scrollable section needs to be positioned absolute, 
+       otherwise the margins are not taken into account when measuing height (CSS...) */
+    position: absolute;
+    width: 100%;
+}
+
+.virtualScroll .vs-container > * {
+    position: relative;
+}

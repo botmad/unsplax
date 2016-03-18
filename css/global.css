@@ -1,0 +1,54 @@
+@import url(../bower_components/HTML5-Reset/assets/css/reset.css);
+@import url(../bower_components/HTML5-Reset/assets/css/style.css);
+.virtualScroll body {
+  margin: 0;
+  padding: 0;
+  /* use this to avoid elastic overscroll on desktop (see below for mobile */
+  overflow: hidden; }
+
+.virtualScroll .vs-container {
+  /* the scrollable section needs to be positioned absolute, 
+     otherwise the margins are not taken into account when measuing height (CSS...) */
+  position: absolute;
+  width: 100%; }
+
+.virtualScroll .vs-container > * {
+  position: relative; }
+
+div, span, section, p, h1, h2, h3, h4, h5, h6 {
+  position: relative; }
+
+.align-bottom div {
+  position: absolute;
+  bottom: 0; }
+
+div[class^="bg-img"], div[class*=" bg-img"] {
+  background-repeat: no-repeat; }
+
+div[class^="bg-img-cover"], div[class*=" bg-img-cover"] {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+div[class^="bg-img-cover-center"], div[class*=" bg-img-cover-center"],
+div[class^="bg-img-center"], div[class*=" bg-img-center"] {
+  background-position: center center; }
+
+div[class^="bg-img-cover-left"], div[class*=" bg-img-cover-left"],
+div[class^="bg-img-left"], div[class*=" bg-img-left"] {
+  background-position: 0 0; }
+
+.overlay-floorfade > * {
+  color: white;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.4+61,0.4+100 */
+  background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.4) 61%, rgba(0, 0, 0, 0.4) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.4) 61%, rgba(0, 0, 0, 0.4) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.4) 61%, rgba(0, 0, 0, 0.4) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=0 );
+  /* IE6-9 */
+  ilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */ }

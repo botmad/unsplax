@@ -1,0 +1,61 @@
+a {
+  text-decoration: none; }
+
+.virtualScroll .vs-container {
+  width: 50%; }
+
+#parallax2 {
+  right: 0; }
+
+.vs-container .vs-layer {
+  margin: 0;
+  width: 100%;
+  height: 100vh; }
+
+#vs-bg, #vs2-bg {
+  z-index: 10;
+  left: 0%; }
+
+#vs-4th, #vs2-4th {
+  z-index: 10;
+  left: 0%;
+  top: -100vh; }
+
+#vs-3rd, #vs2-3rd {
+  z-index: 10;
+  left: 0%;
+  top: -200vh; }
+
+#vs-2nd, #vs2-2nd {
+  z-index: 10;
+  left: 0%;
+  top: -300vh; }
+
+#vs-1st, #vs2-1st {
+  z-index: 10;
+  left: 0%;
+  top: -400vh; }
+
+#vs-txt, #vs2-txt {
+  z-index: 10;
+  left: 0%;
+  margin-top: -500vh; }
+
+#vs-txt {
+  background-color: rgba(0, 13, 27, 0.52); }
+
+#vs-cover, #vs2-cover {
+  z-index: 11;
+  left: 0%;
+  background-color: white;
+  top: 0vh;
+  min-height: 100vh; }
+
+#vs-txt h1, #vs2-txt h1 {
+  font-family: proxima nova;
+  text-transform: uppercase;
+  top: 42vh;
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 100; }

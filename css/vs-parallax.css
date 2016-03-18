@@ -1,0 +1,34 @@
+.vs-container .vs-layer {
+  margin: 0;
+  width: 100vw;
+  height: 66.5vw; }
+
+#vs-bg {
+  z-index: 10;
+  left: 0%; }
+
+#vs-4th {
+  z-index: 10;
+  left: 0%;
+  top: -66.5vw; }
+
+#vs-3rd {
+  z-index: 10;
+  left: 0%;
+  top: -133vw; }
+
+#vs-2nd {
+  z-index: 10;
+  left: 0%;
+  top: -199.5vw; }
+
+#vs-1st {
+  z-index: 10;
+  left: 0%;
+  top: -266vw; }
+
+#vs-cover {
+  z-index: 10;
+  left: 0%;
+  background-color: white;
+  top: -266vw; }

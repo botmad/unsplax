@@ -1,0 +1,49 @@
+.vs-container .vs-layer {
+  margin: 0;
+  width: 100%;
+  height: 100vh; }
+
+#vs-bg {
+  z-index: 10;
+  left: 0%; }
+
+#vs-4th {
+  z-index: 10;
+  left: 0%;
+  top: -100vh; }
+
+#vs-3rd {
+  z-index: 10;
+  left: 0%;
+  top: -200vh; }
+
+#vs-2nd {
+  z-index: 10;
+  left: 0%;
+  top: -300vh; }
+
+#vs-1st {
+  z-index: 10;
+  left: 0%;
+  top: -400vh; }
+
+#vs-txt {
+  z-index: 10;
+  left: 0%;
+  margin-top: -500vh; }
+
+#vs-cover {
+  z-index: 11;
+  left: 0%;
+  background-color: white;
+  top: 0vh;
+  min-height: 100vh; }
+
+#vs-txt h1 {
+  font-family: proxima nova;
+  text-transform: uppercase;
+  top: 42vh;
+  color: white;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 100; }

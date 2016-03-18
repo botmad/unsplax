@@ -1,0 +1,19 @@
+div, span, section, p, h1, h2, h3, h4, h5, h6 {
+  position: relative; }
+
+div[class^="bg-img"], div[class*=" bg-img"] {
+  background-repeat: no-repeat; }
+
+div[class^="bg-img-cover"], div[class*=" bg-img-cover"] {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+div[class^="bg-img-cover-center"], div[class*=" bg-img-cover-center"],
+div[class^="bg-img-center"], div[class*=" bg-img-center"] {
+  background-position: center center; }
+
+div[class^="bg-img-cover-left"], div[class*=" bg-img-cover-left"],
+div[class^="bg-img-left"], div[class*=" bg-img-left"] {
+  background-position: 0 0; }

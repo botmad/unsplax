@@ -1,0 +1,30 @@
+div[id^="box"], div[id*=" box"] {
+  height: 400px; }
+
+#box1 {
+  width: 23.7288135593%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+
+#box2 {
+  width: 23.7288135593%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 25.4237288136%;
+  clear: none; }
+
+#box3 {
+  width: 23.7288135593%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 50.8474576271%;
+  clear: none; }
+
+#box4 {
+  width: 23.7288135593%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }

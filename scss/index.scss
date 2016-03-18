@@ -1,0 +1,69 @@
+$vh: 100vh;
+a { text-decoration: none;}
+.virtualScroll .vs-container  {
+    width: 50%;
+}
+#parallax2 {
+    right: 0;
+}
+.vs-container .vs-layer {
+    margin: 0;
+    width: 100%;
+    height: $vh;
+}
+
+#vs-bg, #vs2-bg {
+    z-index: 10;
+    left: 0%;
+}
+
+#vs-4th, #vs2-4th {
+    z-index: 10;
+    left: 0%;
+    top:-1*$vh;
+}
+
+#vs-3rd, #vs2-3rd {
+    z-index: 10;
+    left: 0%;
+    top:-2*$vh;
+}
+
+#vs-2nd, #vs2-2nd {
+    z-index: 10;
+    left: 0%;
+    top:-3*$vh;
+}
+
+#vs-1st, #vs2-1st {
+    z-index: 10;
+    left: 0%;
+    top:-4*$vh;
+}
+#vs-txt, #vs2-txt {
+    z-index: 10;
+    left: 0%;
+    margin-top:-5*$vh;
+}
+#vs-txt {
+    background-color: rgba(0, 13, 27, 0.52);
+    // background-color: rgba(42,47,52,.7);
+}
+#vs-cover, #vs2-cover {
+    z-index: 11;
+    left: 0%;
+    background-color: white;
+    top:0vh;
+    min-height: $vh;
+}
+
+
+#vs-txt h1, #vs2-txt h1 {
+    font-family: proxima nova;
+    text-transform: uppercase;
+    top: 42vh;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 100;
+}
