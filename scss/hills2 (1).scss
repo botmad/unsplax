@@ -1,0 +1,65 @@
+$vh: 100vh;
+
+.vs-container .vs-layer {
+    margin: 0;
+    width: 100%;
+    height: $vh;
+}
+#vs-bg {
+    z-index: 10;
+    left: 0%;
+}
+
+#vs-9th {
+    z-index: 10;
+    left: 0%;
+    top:-1*$vh;
+}
+
+#vs-3-2rd {
+    z-index: 10;
+    left: 0%;
+    top:-3*$vh;
+}
+#vs-3rd {
+    z-index: 10;
+    left: 0%;
+    top:-2*$vh;
+}
+
+#vs-2nd {
+    z-index: 10;
+    left: 0%;
+    top:-3*$vh;
+}
+
+#vs-1-st {
+    z-index: 10;
+    left: 0%;
+    top:-4*$vh;
+}
+#vs-txt {
+    z-index: 10;
+    left: 0%;
+    // background-color: rgba(0, 13, 27, 0.52);
+    // background-color: rgba(42,47,52,.7);
+    margin-top:-5*$vh;
+}
+#vs-cover {
+    z-index: 11;
+    left: 0%;
+    background-color: white;
+    top:0vh;
+    min-height: $vh;
+}
+
+
+#vs-txt h1 {
+    font-family: proxima nova;
+    text-transform: uppercase;
+    top: 42vh;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 100;
+}

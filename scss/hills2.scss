@@ -1,0 +1,85 @@
+$vh: 100vh;
+
+.vs-container .vs-layer {
+    margin: 0;
+    width: 100%;
+    height: $vh;
+}
+#vs-bg {
+    z-index: 10;
+    left: 0%;
+}
+
+#vs-9th {
+    z-index: 10;
+    left: 0%;
+    margin-top:-1*$vh;
+
+}
+#vs-8th {
+    z-index: 10;
+    left: 0%;
+    top:-1*$vh;
+
+}
+#vs-7th {
+    z-index: 10;
+    left: 0%;
+    margin-top:-2*$vh;
+}
+#vs-6th {
+    z-index: 10;
+    left: 0%;
+    top:-1*$vh;
+}
+#vs-5th {
+    z-index: 10;
+    left: 0%;
+    top:-5*$vh;
+}
+#vs-4th {
+    z-index: 10;
+    left: 0%;
+    top:-6*$vh;
+}
+#vs-3rd {
+    z-index: 10;
+    left: 0%;
+    top:-7*$vh;
+}
+#vs-2nd {
+    z-index: 10;
+    left: 0%;
+    top:-8*$vh;
+}
+
+#vs-1-st {
+    z-index: 10;
+    left: 0%;
+    top:-9*$vh;
+}
+#vs-txt {
+    z-index: 10;
+    left: 0%;
+    // background-color: rgba(0, 13, 27, 0.52);
+    // background-color: rgba(42,47,52,.7);
+    margin-top:-10*$vh;
+}
+#vs-cover {
+    z-index: 11;
+    left: 0%;
+    background-color: wheat;
+    top:100vh;
+    min-height: $vh;
+}
+
+
+#vs-txt h1 {
+    font-family: proxima nova;
+    text-transform: uppercase;
+    top: 42vh;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 100;
+}
